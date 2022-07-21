@@ -59,3 +59,29 @@ jupyter-notebook
 ```
 Open Aneesh_Risav_P&ID_Detection_and_Labelling_System.ipynb
 
+## Tweaking the P&ID symbol detection model
+<ul>
+    <li> Invert the images for greyscale images and create a dataset (use invert function from Aneesh_Risav_P&ID_Detection_and_Labelling_System.ipynb) </li>
+    <li> 2. Save different images of different classes as follows:
+      ```
+    ---main folder
+        --- 0 <- this is class ID
+            --- 1.jpg
+            --- 2.jpg
+            --- 3.jpg
+            ...
+        --- 1
+            --- 1.jpg
+            --- 2.jpg
+            --- 3.jpg
+            ...
+        .
+        .
+        .
+        --- n <- For upto N classes   </li>
+    ```
+    <li>   </li>
+    <li>   </li>
+    <li>   </li>
+</ul>
+
