@@ -14,15 +14,21 @@ The system is designed to: <br>
  ## How it works?
  The system works in 2 stages:
  <ol>
-  <li>We traverse the entire P&ID sheet and process crops of size 150 x 150. (50& overlap of crops is considered) <br>
-    The trained model provides 6 symbol classes 1 background class as inference. <br>
-    We reject background classes and save only the regions which contain the symbols. Several overlapping bounding boxes are detected, which are processed to provide a single bounding box and inference.
+  <li>
+    <ul>
+    <li>We traverse the entire P&ID sheet and process crops of size 150 x 150. (50& overlap of crops is considered).</li>
+    <li>Our custom trained model provides 6 symbol classes 1 background class as inference.</li>
+    <li>We reject background classes and save only the regions which contain the symbols.</li> 
+      <li>Several overlapping bounding boxes are detected, which are processed to provide a single bounding box and inference.</li>
+    </ul>
   </li>
   
   <li>
-    The regions containing symbols are passed through EAST text detection model (pretrained) to determine the orientation of the text i.e vertical or horizontal <br>.
-    The vertical text is roatated 90° right and brought into a horizontal format. <br>
-    These text regions are cropped and passes through the MMOCR mode (pretrained) for performing OCR. <br>
-    Rubbish inferences are rejected and replaced with defaut values. 
+    <ul>
+    <li>The regions containing symbols are passed through EAST text detection model (pretrained) to determine the orientation of the text i.e vertical or horizontal.</li>
+    <li>The vertical text is roatated 90° right and brought into a horizontal format.</li>
+    <li>The processed text regions are cropped and passes through the MMOCR mode (pretrained) for performing OCR.</li>
+    <li>Rubbish inferences are rejected and replaced with defaut values.</li> 
+    </ul>
   </li>
 </ol>
