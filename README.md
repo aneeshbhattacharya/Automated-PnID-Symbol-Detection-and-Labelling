@@ -13,8 +13,8 @@ The system is designed to: <br>
  
  ## How it works?
  The system works in 2 stages:
- <ol>
-  <li>
+ <ol> 
+  <li>Custom object detection step:
     <ul>
     <li>We traverse the entire P&ID sheet and process crops of size 150 x 150. (50& overlap of crops is considered).</li>
     <li>Our custom trained model provides 6 symbol classes 1 background class as inference.</li>
@@ -23,7 +23,7 @@ The system is designed to: <br>
     </ul>
   </li>
   
-  <li>
+  <li>OCR and text processing step:
     <ul>
     <li>The regions containing symbols are passed through EAST text detection model (pretrained) to determine the orientation of the text i.e vertical or horizontal.</li>
     <li>The vertical text is roatated 90° right and brought into a horizontal format.</li>
