@@ -10,6 +10,8 @@ The system is designed to: <br>
   </ul>
   </li>
  </ul>
+ <img width="1132" alt="image" src="https://user-images.githubusercontent.com/68210639/180232710-c5eba1ff-3a54-490c-966b-fbb274209d9e.png">
+
  
  ## How it works?
  The system works in 2 stages:
