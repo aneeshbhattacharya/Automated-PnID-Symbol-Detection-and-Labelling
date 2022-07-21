@@ -36,15 +36,15 @@ The system is designed to: <br>
 ## Setup
 The solution has been tested on Ubuntu 20.04, Mac OS Montery, Windows 10 and 11 (Git Bash) and Google Colab.
 ### Conda Environment:
-'''
+```
 conda create -n PnID python=3.7.13
 conda activate PnID
-'''
+```
 ### Installing requirements:
-'''
+```
 git clone https://github.com/aneeshbhattacharya/Automated-PnID-Symbol-Detection-and-Labelling.git
 cd Automated-PnID-Symbol-Detection-and-Labelling
 sudo chmod +x build.sh
 ./build.sh
-'''
+```
 
