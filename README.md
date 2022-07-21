@@ -62,7 +62,24 @@ Open Aneesh_Risav_P&ID_Detection_and_Labelling_System.ipynb
 ## Tweaking the P&ID symbol detection model
 <ul>
     <li> Invert the images for greyscale images and create a dataset (use invert function from Aneesh_Risav_P&ID_Detection_and_Labelling_System.ipynb) </li>
-    <li> 2. Save different images of different classes as follows:</li>
+    <li> 2. Save different images of different classes as follows:
+---main folder<br>
+  --- 0 <- this is class ID<br>
+      --- 1.jpg<br>
+      --- 2.jpg<br>
+      --- 3.jpg<br>
+      ...<br>
+  --- 1<br>
+      --- 1.jpg<br>
+      --- 2.jpg<br>
+      --- 3.jpg<br>
+      ...<br>
+  .<br>
+  .<br>
+  .<br>
+  --- n <- For upto N classes 
+  
+  </li>
 
 </ul>
 
