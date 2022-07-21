@@ -80,9 +80,9 @@ Open Aneesh_Risav_P&ID_Detection_and_Labelling_System.ipynb
   
   </li>
   
-  <li>Place this folder with name 'dataset' in the same directory as FINAL_Inverted_PyTorch_Model_P&ID_LTTS.ipynb</li>
+  <li>Place this folder with name 'dataset' in the same directory as FINAL_Inverted_PyTorch_Model_P&ID.ipynb</li>
   <li>Set the number of classes output required by the model as "n" (last softmax layer of model)</li>
-  <li>Run FINAL_Inverted_PyTorch_Model_P&ID_LTTS.ipynb</li>
+  <li>Run FINAL_Inverted_PyTorch_Model_P&ID.ipynb</li>
 
 </ul>
 
