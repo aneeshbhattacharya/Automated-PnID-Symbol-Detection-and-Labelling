@@ -78,8 +78,5 @@ Open Aneesh_Risav_P&ID_Detection_and_Labelling_System.ipynb
           </ul>
       </ul>
 
-    <li>   </li>
-    <li>   </li>
-    <li>   </li>
 </ul>
 
