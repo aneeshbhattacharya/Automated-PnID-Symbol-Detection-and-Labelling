@@ -63,23 +63,21 @@ Open Aneesh_Risav_P&ID_Detection_and_Labelling_System.ipynb
 <ul>
     <li> Invert the images for greyscale images and create a dataset (use invert function from Aneesh_Risav_P&ID_Detection_and_Labelling_System.ipynb) </li>
     <li> 2. Save different images of different classes as follows:
-      ```
-    ---main folder
-        --- 0 <- this is class ID
-            --- 1.jpg
-            --- 2.jpg
-            --- 3.jpg
-            ...
-        --- 1
-            --- 1.jpg
-            --- 2.jpg
-            --- 3.jpg
-            ...
-        .
-        .
-        .
-        --- n <- For upto N classes   </li>
-    ```
+    
+      <ul>
+        <li>main folder</li>
+          <ul>
+            <li>0</li>
+              <ul>
+                <li>1.jpg</li>
+                <li>2.jpg</li>
+                <li>x.jpg</li>
+              </ul>
+            <li>1</li>
+            <li>n</li>
+          </ul>
+      </ul>
+
     <li>   </li>
     <li>   </li>
     <li>   </li>
