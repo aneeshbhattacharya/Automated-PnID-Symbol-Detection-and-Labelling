@@ -47,7 +47,10 @@ cd Automated-PnID-Symbol-Detection-and-Labelling
 sudo chmod +x build.sh
 ./build.sh
 ```
-### Download EAST model: https://www.dropbox.com/s/r2ingd0l3zt8hxs/frozen_east_text_detection.tar.gz?dl=1
+### Download EAST model:
+```
+ https://www.dropbox.com/s/r2ingd0l3zt8hxs/frozen_east_text_detection.tar.gz?dl=1
+```
 Put the file in the MMOCR directory
 ### Run the code:
 ```
