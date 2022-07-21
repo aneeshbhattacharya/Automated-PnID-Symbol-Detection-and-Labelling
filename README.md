@@ -16,7 +16,7 @@ The system is designed to: <br>
  <ol> 
   <li>Custom object detection step:
     <ul>
-    <li>We traverse the entire P&ID sheet and process crops of size 150 x 150. (50& overlap of crops is considered).</li>
+    <li>We traverse the entire P&ID sheet and process crops of size 150 x 150. (50% overlap of crops is considered).</li>
     <li>Our custom trained model provides 6 symbol classes 1 background class as inference.</li>
     <li>We reject background classes and save only the regions which contain the symbols.</li> 
       <li>Several overlapping bounding boxes are detected, which are processed to provide a single bounding box and inference.</li>
@@ -32,3 +32,19 @@ The system is designed to: <br>
     </ul>
   </li>
 </ol>
+
+## Setup
+The solution has been tested on Ubuntu 20.04, Mac OS Montery, Windows 10 and 11 (Git Bash) and Google Colab.
+### Conda Environment:
+'''
+conda create -n PnID python=3.7.13
+conda activate PnID
+'''
+### Installing requirements:
+'''
+git clone https://github.com/aneeshbhattacharya/Automated-PnID-Symbol-Detection-and-Labelling.git
+cd Automated-PnID-Symbol-Detection-and-Labelling
+sudo chmod +x build.sh
+./build.sh
+'''
+
